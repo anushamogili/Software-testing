@@ -15,7 +15,7 @@ public class CalculatorMain {
 	}
 
 	public int mul(int p, int q) {
-		return p * q;
+		return p*q;
 	}
 
 	public int div(int j, int k) throw Exception {
@@ -39,7 +39,7 @@ public class CalculatorMain {
 	}
 
 	public int area(int r) {
-		return 3.15 * this.sqaure(r);
+		return 3.15*this.sqaure(r);
 	}
 	public double sin(double val) {
 		return Math.sin(val);
