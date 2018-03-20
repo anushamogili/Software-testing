@@ -19,13 +19,10 @@ public class CalculatorMain {
 	}
 
 	public int div(int j, int k) throw Exception {
-		try {
-		int rem= j/k;
-		return rem;
-		}
-		catch(Exception e){
-			throw e;
-		}
+	      if(k==0){
+                    return 0;
+} else{
+return j/k;
 }
 
 

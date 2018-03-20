@@ -33,7 +33,7 @@ public class CaculatorTest {
 	}
 	@Test(expected=java.lang.ArithmeticException.class)
 	public void testDivByZero() {
-		calc.div(3,0);
+		(0 ,calc.div(3,0));
 	}
 	
 	@Test
