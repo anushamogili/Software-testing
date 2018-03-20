@@ -20,13 +20,13 @@ public class CalculatorMain {
 
 	public int div(int j, int k) throw Exception {
 		try {
-		int rem= j / k;
+		int rem= j/k;
 		return rem;
 		}
 		catch(Exception e){
 			throw e;
 		}
-	}
+}
 
 
 	public double sqr(double number) {
