@@ -33,7 +33,7 @@ public class CalculatorMain {
 		System.out.println("sqrt is"+b);
 		return (int)Math.sqrt(a);
 }
-	public int remaind(int a, int b) {
-		return a%b;
+	public int remaind(int a, int c) {
+		return a%c;
 	}
 }
