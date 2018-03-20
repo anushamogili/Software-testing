@@ -24,7 +24,7 @@ public class CalculatorMain {
 		return a*a;
 	}
 	public Object fact(int a) {
-		// TODO Auto-generated method stub
+		
 		return a*(a-1);
 	}
 	public int sqrt(int a)
