@@ -1,5 +1,4 @@
 package calc;
-{
 
 import static org.junit.Assert.assertEquals;
 
@@ -40,7 +39,7 @@ public class CalculatorMain {
 	}
 
 	public int area(int r) {
-		return 3.15 * this.sqaure(r) ;
+		return 3.15 * this.sqaure(r);
 	}
 	public double sin(double val) {
 		return Math.sin(val);
@@ -63,5 +62,4 @@ public class CalculatorMain {
 	public int sqaure(int val) {
 		return val*val;
 	}
-}
 }
