@@ -1,62 +1,39 @@
 package calc;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Scanner;
-
 public class CalculatorMain {
-
-	public int add(int a, int b) {
-		return a + b;
+	public CalculatorMain(){
+		}
+	public int add(int a, int b){
+		return a+b;
 	}
-
-	public int sub(int x, int y) {
-		return x - y;
+	public int Sub(int a, int b) {
+		return a-b;
 	}
-
-	public int mul(int p, int q) {
-		return p*q;
+	public int mul(int a, int b) {
+		return a*b;
 	}
-
-	public int div(int j, int k) throw Exception {
-	      if(k==0){
-                    return 0;
-} else{
-return j/k;
+	public int div(int a, int b) {
+		if(b==0) {
+			return 0;
+		}
+		else {
+			return a/b;
+		}
+	}
+	public Object Square(int a) {
+		return a*a;
+	}
+	public Object fact(int a) {
+		// TODO Auto-generated method stub
+		return a*(a-1);
+	}
+	public int sqrt(int a)
+	{
+		int b=(int)Math.sqrt(a);
+		System.out.println("sqrt is"+b);
+		return (int)Math.sqrt(a);
 }
-
-
-	public double sqr(double number) {
-		double squareRoot = Math.sqrt(number);
-		return Math.round(squareRoot);
-	}
-
-	public int mod(int num1, int num2) {
-		return num1 % num2;
-	}
-
-	public int area(int r) {
-		return 3.15*this.sqaure(r);
-	}
-	public double sin(double val) {
-		return Math.sin(val);
-	}
-	public double cos(double val) {
-		return Math.cos(val);
-	}
-	public double tan(double val) {
-		return Math.tan(val);
-	}
-	public double sec(double val) {
-		return Math.sec(val);
-	}
-	public double log(double val) {
-		return Math.log(val);
-	}
-	public int power(int x,int y) {
-		return x^y;
-	}
-	public int sqaure(int val) {
-		return val*val;
+	public int remaind(int a, int b) {
+		return a%b;
 	}
 }
