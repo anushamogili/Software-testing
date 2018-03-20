@@ -1,5 +1,5 @@
 package calc;
-
+{
 
 import static org.junit.Assert.assertEquals;
 
