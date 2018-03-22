@@ -19,13 +19,14 @@ public class CalculatorMain {
 		}
 		else {
 			return a/b;
-		}
-	}
-		public Object Square(int a) {
+                }
+        }
+	public Object Square(int a) {
 		return a*a;
 	}
 	public Object fact(int a) {
 		// TODO Auto-generated method stub
 		return a*(a-1);
 	}
+	
 }
